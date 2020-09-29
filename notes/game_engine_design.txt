@@ -1,0 +1,18 @@
+youtube - episode 2: Designing our Game Engine
+
+name??? : doug-engine
+
+what a game engine has:
+- entry point: 			whats the "int main()" of it
+- application layer: 		time, what keeps frames running per platform
+- window layer: 		input, events & state machine
+- renderer:			draws things, 
+- Render API:			an abstraction of rendering APIs, starting with OpenGL, could be Direct X later or other
+- debugging support:		logging etc
+- scripting layer:		lua, c#, python?
+- memory systems:		allocation, management
+- entity-component system:	(ECS) adding comonents to an object (like unity)
+- physcis:			physics
+- File I/O:			managing files, & a virtual file system
+- Build system:			outputting executables
+- Asset system:			managing custom file types for the engine
