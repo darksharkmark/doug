@@ -4,6 +4,7 @@
 
 #include <stdio.h>
 #include "Doug/Application.h"
+#include "Doug/Log.h"
 
 // --- Entry Point START---
 
