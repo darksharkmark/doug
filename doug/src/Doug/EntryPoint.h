@@ -6,9 +6,9 @@ extern Doug::Application* Doug::CreateApplication();
 
 int main(int argc, char** argv)
 {
-	DOUG_CORE_INFO("min function called");
-
 	Doug::Log::Init();
+
+	DOUG_CORE_INFO("main function called");
 
 	DOUG_CORE_INFO("Initialized log!");
 
